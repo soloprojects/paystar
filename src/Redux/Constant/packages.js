@@ -1,0 +1,3 @@
+export const FETCH_ALL_PACKAGES = "FETCH_ALL_PACKAGES";
+export const ADD_PACKAGE = "ADD_PACKAGE";
+export const UPDATE_PACKAGE = "UPDATE_PACKAGE";

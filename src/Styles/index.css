@@ -1,0 +1,712 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.ttf"); /* IE9 Compat Modes */
+  src: local("Inter"), local("Inter"),
+    url("./fonts/Inter-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+  font-family: "Inter";
+}
+
+.select_logo {
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.44px;
+
+  /* Gray 2 */
+
+  color: #dde2e5;
+}
+
+#support_text,
+.sideBar_item,
+.sideBar_item-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.sideBar_item {
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  text-transform: capitalize;
+}
+
+.sideBar_item-head {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+}
+
+.authenticationcard {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.authenticationcard_text-head {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.authentication_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.44px;
+}
+
+.authentication_text-head {
+  font-size: 1.5rem;
+  line-height: 29px;
+  padding-right: 5rem;
+}
+
+.LoginInputFrame,
+.LoginInputFrame-small {
+  width: 260px;
+  height: 65px;
+
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.LoginInputFrame-small {
+  width: 120px;
+}
+
+input,
+select {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  color: #495057;
+}
+
+button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.44px;
+}
+
+.scan_intro {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #000000;
+}
+.scan_sub-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.44px;
+  width: 17rem;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  /* identical to box height */
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  /* Gray 3 */
+
+  color: #acb5bd;
+}
+
+.LoginInputFrame_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.otp_input {
+  width: 10px;
+  height: 35px;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.userName {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  color: #495057;
+}
+
+select:focus {
+  border-color: gray;
+  outline: none;
+}
+
+.page_title {
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.homePage-box {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.homePage-box_text-head {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #acb5bd;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dde2e5;
+}
+.advert {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160.02%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.search_text {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  color: #333333;
+}
+.search_text::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  color: #333333;
+}
+
+/* .package_editior {
+  height: 500px;
+  border: 1px solid #05668d;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+  border-radius: 4px;
+} */
+
+.package_editior {
+  border: 1px solid #05668d;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+  border-radius: 4px;
+  height: 300px !important;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 1rem;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+  color: #2e384d;
+}
+
+.pop-card {
+  right: 3.7rem;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #4c505f;
+}
+
+.profile_intro {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.44px;
+  color: #495057;
+}
+
+th {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #acb5bd;
+}
+
+tr,
+td:last-child {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+tr,
+td:first-child {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+th {
+  padding: 0.5rem;
+}
+
+.expand-text,
+.expand-text_inactive {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: #4c505f;
+}
+
+.expand-text_inactive {
+  color: #acb5bd;
+}
+
+.transaction_header-text {
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.transaction_sub-text {
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.44px;
+}
+
+.button_icon_text {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+}
+
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  margin: auto 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  overflow-y: hidden;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #ffffff;
+  margin: 15% auto; /* 15% from the top and centered */
+  color: #000000;
+  border: 1px solid #888;
+}
+
+.pay_width {
+  width: 95%;
+}
+
+.other_pay {
+  width: 95%;
+}
+
+.modal-height {
+  height: 30.5rem;
+}
+
+.line {
+  border-bottom: 0.5px solid #dde2e5;
+}
+
+/* The Close Button */
+.close {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal_title {
+  font-size: 14px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.payoptions_text {
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+.payoptions {
+  border: 0.3px solid #05668d1a;
+}
+
+.payoptions_page {
+  margin: 0 auto;
+}
+
+.Agent_name {
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.15px;
+
+  color: #000000;
+}
+
+.Agent_review-text {
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #495057;
+}
+
+textarea {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.44px;
+}
+
+.settings_notification {
+  font-size: 14px;
+  line-height: 19px;
+
+  letter-spacing: 0.44px;
+
+  color: #495057;
+}
+
+.delete_text {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.44px;
+
+  color: #495057;
+}
+
+.charge_alert {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: #000000;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.44px;
+
+  /* Gray 4 */
+
+  color: #495057;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 2px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#style-7::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+#style-7::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+
+#style-7::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  .authenticationcard {
+    width: 22.875rem;
+    height: 22.875rem;
+    left: 45%;
+    margin-top: 0rem;
+  }
+  .authentication_text-frame {
+    width: 40%;
+  }
+
+  .homePage-box {
+    width: 410px;
+  }
+
+  .authentication_text {
+    font-size: 12px;
+  }
+
+  .authentication_text-head {
+    padding-right: 3rem;
+  }
+  .transaction_sub-text {
+    font-size: 16px;
+  }
+  .modal_title {
+    font-size: 24px;
+  }
+
+  .pay_width {
+    width: 40%;
+  }
+
+  .other_pay {
+    width: 80%;
+  }
+
+  .payoptions_text {
+    font-size: 14px;
+  }
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+  .authenticationcard {
+    width: auto;
+    height: auto;
+    left: 55%;
+    margin-top: 0rem;
+  }
+  .authentication_text-frame {
+    width: 45%;
+  }
+  .authentication_text {
+    font-size: 16px;
+  }
+
+  .authentication_text-head {
+    padding-right: 6rem;
+  }
+
+  .homePage-box {
+    width: 410px;
+  }
+
+  .transaction_sub-text {
+    font-size: 16px;
+  }
+
+  .modal_title {
+    font-size: 24px;
+  }
+
+  .pay_width {
+    width: 40%;
+  }
+
+  .other_pay {
+    width: 80%;
+  }
+  .payoptions_text {
+    font-size: 14px;
+  }
+
+  .scan_sub-text {
+    width: 20rem;
+  }
+
+  .modal-height {
+    height: 35.5rem;
+  }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+  .authenticationcard {
+    width: 30.875rem;
+    height: auto;
+    left: 55%;
+    margin-top: 0rem;
+  }
+  .authentication_text-frame {
+    width: 40%;
+  }
+  .authentication_text {
+    font-size: 16px;
+  }
+
+  .authentication_text-head {
+    padding-right: 5.5rem;
+  }
+
+  .homePage-box {
+    width: 410px;
+  }
+
+  .transaction_sub-text {
+    font-size: 16px;
+  }
+  .modal_title {
+    font-size: 20px;
+  }
+
+  .pay_width {
+    width: 40%;
+  }
+
+  .other_pay {
+    width: 50%;
+  }
+  .payoptions_text {
+    font-size: 14px;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 5% auto;
+  }
+
+  .scan_sub-text {
+    width: 26rem;
+  }
+
+  .modal-height {
+    height: 33.5rem;
+  }
+}
